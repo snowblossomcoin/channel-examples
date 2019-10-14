@@ -1,0 +1,41 @@
+
+#logo { float: right; position: static; }
+
+body {
+  background-color:#ccccff; 
+  font-family: 'Open Sans'; 
+  font-weight: 100; 
+  color:#292933  }
+
+a:link {color:#000000;}
+a:visited {color:#525266;}
+  
+table {
+  max-width:100%;
+  font-family: 'Droid Sans Mono';
+  border-collapse:collapse;
+  margin:1em 0;
+  font-size: 0.80em;
+  border: 1px solid black;
+}
+
+td
+{
+  border: 1px solid gray;
+  background:#b8b8e6;
+  padding: 4px;
+}
+
+th
+{
+  border: 1px solid gray;
+  background:#666680;
+  color:#ffffff;
+  padding: 4px;
+}
+
+h1 { color:#525266;}
+h3 { color:#525266;}
+li{ font-family: 'Droid Sans Mono';}
+
+

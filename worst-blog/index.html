@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Worst Blog</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link REL="SHORTCUT ICON" href='snow-icon-blog.png' />
+  </head>
+  <body>
+  <h1>Worst Blog Program Ever</h1>
+  <div id='submit_zone' style='display: none;'>
+    <input id='chatmsg' type='text' size='100'>
+    <button id='send'>Send</button>
+		<form name='upload' action='api/beta/block/submit_files' method='POST' enctype='multipart/form-data'>
+			<input name='file' id='fileinput' files='FileList' type='file' multiple='false'>
+			<input type='submit' value='Upload'>
+		</form>
+    <br>
+  </div>
+  <br><br>
+  <div id='content_zone'></div>
+  <br>
+  <a href='api/beta/block/tail'>RAW BLOCKS</a>
+  </body>
+  <script src="blog.js"></script>
+</html>
